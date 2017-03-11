@@ -1,0 +1,258 @@
+.hide {
+    display: none;
+}
+
+.container {
+    overflow: hidden;
+    width: 6.4rem;
+    height: 6.67rem;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("./imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.gate {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    top: 4px;
+}
+
+.gate-left {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/b_door_left.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.gate-right {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    right: 0;
+    background: url("./imgs/b_door_right.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-seat {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    top: 3px;
+    background: url("./imgs/b_puzzle.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-whole {
+    position: absolute;
+    top: 3px;
+}
+
+.taiji-piece-1 {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/i_puzzle1_pre.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-piece-2 {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/i_puzzle2_pre.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-piece-3 {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/i_puzzle3_pre.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-piece-4 {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/i_puzzle5_pre.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-piece-5 {
+    width: 6.4rem;
+    height: 6.67rem;
+    position: absolute;
+    background: url("./imgs/i_puzzle4_pre.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-drag-pieces {
+    width: 6.4rem;
+    height: 3.08rem;
+    position: absolute;
+    top: 1.8rem;
+}
+
+.taiji-drag-piece-1 {
+    width: 2.42rem;
+    height: 2.13rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0.2rem;
+    /*background-color: red;*/
+    background: url("./imgs/i_puzzle1_nor.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-drag-piece-2 {
+    width: 2.42rem;
+    height: 2.13rem;
+    position: absolute;
+    bottom: -0.9rem;
+    left: 0.1rem;
+    /*background-color: blue;*/
+    background: url("./imgs/i_puzzle2_nor.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-drag-piece-3 {
+    width: 2.44rem;
+    height: 2.21rem;
+    position: absolute;
+    bottom: -1.4rem;
+    left: 2rem;
+    /*background-color: blue;*/
+    background: url("./imgs/i_puzzle3_nor.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-drag-piece-4 {
+    width: 2.16rem;
+    height: 1.47rem;
+    position: absolute;
+    bottom: 0;
+    left: 4rem;
+    /*background-color: blue;*/
+    background: url("./imgs/i_puzzle5_nor.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.taiji-drag-piece-5 {
+    width: 2.71rem;
+    height: 1.5rem;
+    position: absolute;
+    bottom: 2.1rem;
+    left: 3.5rem;
+    /*background-color: blue;*/
+    background: url("./imgs/i_puzzle4_nor.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.guide {
+    width: 1.39rem;
+    height: 1.16rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("./imgs/prompt.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.trigger-drag-1 {
+    width: 1.4rem;
+    height: 1.1rem;
+    position: absolute;
+    bottom: 0.9rem;
+    right: 0.6rem;
+    /*background-color: red;*/
+}
+
+.trigger-drag-2 {
+    width: 1rem;
+    height: 1.1rem;
+    position: absolute;
+    bottom: 0.8rem;
+    right: 1.3rem;
+    /*background-color: red;*/
+}
+
+.trigger-drag-3 {
+    width: 1.2rem;
+    height: 1.1rem;
+    position: absolute;
+    bottom: 0.4rem;
+    right: 0.6rem;
+    /*background-color: red;*/
+}
+
+.trigger-drag-4 {
+    width: 1.4rem;
+    height: 0.7rem;
+    position: absolute;
+    bottom: 0.4rem;
+    right: 0.1rem;
+    /*background-color: red;*/
+}
+
+.trigger-drag-5 {
+    width: 1.1rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.3em;
+    /*background-color: red;*/
+}
+
+.drag-destination-1 {
+    width: 1rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+    /*background-color: blue;*/
+}
+
+.drag-destination-2 {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 2.9rem;
+    left: 1.4rem;
+    /*background-color: blue;*/
+}
+
+.drag-destination-3 {
+    width: 1.1rem;
+    height: 1rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 2.3rem;
+    /*background-color: blue;*/
+}
+
+.drag-destination-4 {
+    width: 0.8rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 3.5rem;
+    /*background-color: blue;*/
+}
+
+.drag-destination-5 {
+    width: 0.8rem;
+    height: 0.9rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 4rem;
+    /*background-color: blue;*/
+}
+.destination-guide {
+    display: block;
+    opacity: 0.7;
+}
